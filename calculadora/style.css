@@ -1,0 +1,46 @@
+* {
+    align-items: center;
+    background-color: rgb(5, 10, 25);
+}
+
+.display {
+    width: 424px;
+    height: 50px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 20px;
+    font-family: sans-serif;
+    align-items: center;
+    color: #fff;
+    font-size: 76px;
+}
+
+form {
+    margin: 20px;
+    align-items: center;
+}
+
+.button {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border-radius: 10px;
+    margin: 1px;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}

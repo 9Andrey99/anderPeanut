@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(5, 10, 25);;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body, h2, div, input, button {
+    padding: 0;
+    margin: 0;
+}
+
+.addNombre {
+    margin-top: 40px;
+}
+
+#nombre {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #eee;
+}
+
+#nombre::placeholder {
+    color: #fff;
+    font-weight: 100;
+}
+
+#add {
+    background-color: #ddd;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.nombres {
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+.nombre {
+    display: grid;
+    grid-template-columns: minmax(100px,300px) 1fr;
+    text-align: center;
+    border-top: 1px solid rgb(126, 87, 194);
+    margin-top: 2px;
+}
+
+.nombre h2 {
+    color: #fff;
+}
+
+.options {
+    display: flex;
+}
+
+.options button {
+    background: transparent;
+    border: none;
+    margin: 4px 10px;
+}
+
+.delete {
+    color: #777;
+}
+
+.delete:hover {
+    color: rgb(126, 87, 194);
+}
+
+.imposible {
+    color: #ccc;
+    opacity: 0.2;
+}
+
+.posible {
+    color: rgb(126, 87, 194);
+}

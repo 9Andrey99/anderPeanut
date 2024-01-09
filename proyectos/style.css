@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(5, 10, 25);
+}
+
+h1 {
+	color: #fff;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+li {
+	cursor: pointer;
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+}
+
+a {
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgb(126, 87, 194);
+}

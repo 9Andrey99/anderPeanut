@@ -5,129 +5,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/home-imgs/fokaengineer.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="../home-imgs/fokaengineer.png">
 
-  <!--Icons-->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-  <!--Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-  <title>Home - AnderPeanut</title>
+  </link>
+  <title>Sobre Mí - AnderPeanut</title>
 </head>
 
 <body>
 
-  <div id="myModal" class="modal">
-    <div class="modal-content">
-      <div class="loader"></div>
-    </div>
+  <div class="text">
+    <h2>Sobre Mi</h2>
+  </div>
+  <div class="cuerpo">
+    <img src="../home-imgs/placeholder.jpg">
+    <p>Hola! Soy Ander Puente, pero todos me llaman Ander Peanut por alguna razon extraña. He aprendido a hacer páginas
+      web gracias a <a href="https://youtube.com/@soyDalto" target="_blank">soyDalto</a>. Esta página web lo he hecho
+      con codigo nativo de html, css y javascript. Estoy muy feliz con las cosas que he logrado hacer aqui, sí, hablo
+      sobre todos los proyectos que puedes ver <a href="../proyectos">aquí</a>. Sientate, relajate y disfruta...</p>
   </div>
 
-  <nav>
-    <div id="nav-logo-section" class="nav-section">
-      <a href="">
-        <i class='bx bx-home-alt-2' onclick="location.reload()"></i>
-      </a>
-    </div>
-    <div id="nav-link-section" class="nav-section">
-      <a href="/about">SOBRE MÍ</a>
-      <a href="/proyectos">PROYECTOS</a>
-    </div>
-    <div id="nav-social-section" class="nav-section">
-      <a href="https://youtube.com/@909andrey6">
-        <i class='bx bxl-youtube'></i>
-      </a>
-      <a href="https://twitter.com/0999Andrey">
-        <i class='bx bxl-twitter'></i>
-      </a>
-      <a href="https://discord.gg/4m8PaecakW">
-        <i class='bx bxl-discord-alt'></i>
-      </a>
-    </div>
-    <div id="nav-contact-section" class="nav-section">
-      <a href="mailto:andrey909pl@gmail.com">CONTACTO</a>
-    </div>
-  </nav>
-
-  <main>
-    <article data-index="0" data-status="active">
-      <div class="article-image-section article-section" onclick="location.replace('/nombresindexdb')"></div>
-      <div class="article-description-section article-section">
-        <p>Una lista virtual hecha con IndexedDB para que se guarden todos los datos.</p>
-      </div>
-      <div class="article-title-section article-section">
-        <h2>IndexedDB: Lista con nombres</h2>
-      </div>
-      <div class="article-nav-section article-section">
-        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
-          <i class='bx bx-chevron-left'></i>
-        </button>
-        <button class="article-nav-button" type="button" onclick="handleRightClick()">
-          <i class='bx bx-chevron-right'></i>
-        </button>
-      </div>
-    </article>
-    <article data-index="1" data-status="inactive">
-      <div class="article-image-section article-section" onclick="location.replace('/clock')"></div>
-      <div class="article-description-section article-section">
-        <p>Un reloj independiente del servidor que se refresca cada segundo para indicar la hora local.</p>
-      </div>
-      <div class="article-title-section article-section">
-        <h2>Reloj</h2>
-      </div>
-      <div class="article-nav-section article-section">
-        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
-          <i class='bx bx-chevron-left'></i>
-        </button>
-        <button class="article-nav-button" type="button" onclick="handleRightClick()">
-          <i class='bx bx-chevron-right'></i>
-        </button>
-      </div>
-    </article>
-    <article data-index="2" data-status="inactive">
-      <div class="article-image-section article-section" onclick="location.replace('/calculadora')"></div>
-      <div class="article-description-section article-section">
-        <p>Una simple calculadora con las funciones básicas y no tan básicas como números aleatorios.</p>
-      </div>
-      <div class="article-title-section article-section">
-        <h2>Calculadora</h2>
-      </div>
-      <div class="article-nav-section article-section">
-        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
-          <i class='bx bx-chevron-left'></i>
-        </button>
-        <button class="article-nav-button" type="button" onclick="handleRightClick()">
-          <i class='bx bx-chevron-right'></i>
-        </button>
-      </div>
-    </article>
-    <article data-index="3" data-status="inactive">
-      <div class="article-image-section article-section" onclick="location.replace('/proyectos')"></div>
-      <div class="article-description-section article-section">
-        <p>¿Cómo?¿Todabía hay mas? Estos solo eran los proyectos destacados.</p>
-      </div>
-      <div class="article-title-section article-section">
-        <h2>Esto no ha terminado</h2>
-      </div>
-      <div class="article-nav-section article-section">
-        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
-          <i class='bx bx-chevron-left'></i>
-        </button>
-        <button class="article-nav-button" type="button" onclick="handleRightClick()">
-          <i class='bx bx-chevron-right'></i>
-        </button>
-      </div>
-    </article>
-  </main>
-  <script src="script.js"></script>
 </body>
 
 </html>

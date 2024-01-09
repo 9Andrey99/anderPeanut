@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(5, 10, 25);
+    margin: 0;
+    padding: 0;
+}
+  
+h2, p {
+    color: #ddd;
+    font-family: 'Rubik', 'sans-serif';
+}
+  
+a {
+    text-decoration: none;
+    color: rgb(126, 87, 194);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+    margin: 20px 20px;
+}
+
+h2 {
+    margin: 20px 0 40px;
+}
+
+img {
+    height: 200px;
+}
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: 200px 400px;
+    text-align: justify;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
